@@ -1,3 +1,4 @@
+import { Footer } from "./Footer"
 import { Header } from "./Header"
 import { ServiceBoxes } from "./ServiceBoxes"
 
@@ -6,6 +7,7 @@ export const Homepage = () => {
     <>
       <Header />
       <ServiceBoxes />
+      <Footer />
     </>
     
   )

@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 export const ServiceBoxes = () => {
     return (
-        <Container fluid>
+        <Container fluid className="mb-5">
             <Row>
                 <Col xs={12} md={6} lg={4} className="p-5 service-box-text">
                     <Container fluid className="p-4">
