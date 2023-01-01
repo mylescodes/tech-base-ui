@@ -19,8 +19,6 @@ export const ServiceBoxes = () => {
                         <Button variant="outline-light">LEARN MORE</Button>
                     </Container>
                 </Col>
-            </Row>
-            <Row>
                 <Col xs={12} md={6} lg={4} className="service-box-image service-box-image-2"></Col>
                 <Col xs={12} md={6} lg={4} className="p-5 service-box-text">
                     <Container fluid className="p-4">

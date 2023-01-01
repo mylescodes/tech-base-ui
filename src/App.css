@@ -20,3 +20,15 @@
 .service-box-image-3 {
     background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg");
 }
+
+@media only screen and (max-width: 650px) {
+    .service-box-image {
+        height: 18rem;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .service-box-image {
+        height: 23.5rem;
+    }
+  }
