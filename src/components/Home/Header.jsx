@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
