@@ -1,1 +1,22 @@
+.service-box-text {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
 
+.service-box-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.service-box-image-1 {
+    background-image: url("https://www.digitalmenta.com/wp-content/uploads/2019/09/tendencias-seo-2020.jpg");
+}
+
+.service-box-image-2 {
+    background-image: url("https://www.dummies.com/wp-content/uploads/digital-marketing-concept.jpg");
+}
+
+.service-box-image-3 {
+    background-image: url("https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg");
+}
