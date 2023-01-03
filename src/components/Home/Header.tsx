@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar, Row, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
@@ -22,11 +22,12 @@ export const Header = () => {
                     <Navbar.Brand href="#home">TechBaseLogo</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="ms-auto d-flex justify-content-center align-items-center">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About</Nav.Link>
                             <Nav.Link href="#link">Projects</Nav.Link>
                             <Nav.Link href="#link">Contact</Nav.Link>
+                            <a href="https://calendly.com/technologyscorpio" className="header-button">Schedule a consultation</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
