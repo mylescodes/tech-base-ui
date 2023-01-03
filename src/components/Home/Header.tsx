@@ -8,8 +8,7 @@ export const Header = () => {
             <Container>
                 <Row>
                     <Col>
-                        <small className="text-muted">+1 (704) 584-9033 | info@onebricktech.com</small>
-                    
+                        <small className="text-muted">+1 (704) 584-9033 | info@onebricktech.com</small>  
                     </Col>
                     <Col className="d-flex align-items-center justify-content-end">
                         <FontAwesomeIcon className="me-3" icon={faFacebook} />
